@@ -1,0 +1,13 @@
+Hooks provided by the Michigan skin.
+
+'MichiganAfterToolbox': Called after the toolbox (#p-tb) has been rendered
+$tpl: MichiganTemplate object
+
+'MichiganRightPanel': Called inside div#mw-panel-right; can be used to populate
+that div element with ad HTML, for example.
+$tpl: MichiganTemplate object
+
+'SkinMichiganStyleModules': Called when defining the list of module styles to be
+loaded by the Michigan skin.
+$skin: SkinMichigan object
+&$styles: Array of module names whose style will be loaded for the skin
