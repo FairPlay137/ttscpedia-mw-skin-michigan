@@ -1,12 +1,8 @@
 {
 	"name": "Michigan",
 	"namemsg": "skinname-michigan",
-	"version": "0.1 alpha 3",
+	"version": "0.1",
 	"author": [
-		"immewnity",
-		"Paladox",
-		"Craig Davison",
-		"lagleki",
 		"FairPlay137"
 	],
 	"descriptionmsg": "michigan-desc",
