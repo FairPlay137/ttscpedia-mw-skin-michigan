@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"FairPlay137"
+		]
+	},
+	"skinname-michigan": "Michigan (Alpha)",
+	"skinname-michiganL": "Michigan Light (Alpha)",
+	"michigan-desc": "Michigan is a fork of Metrolook 7.0 alpha 2 adapted for the TTSCpedia.",
+	"michiganL-desc": "The Michigan skin, except it uses a light color scheme",
+	"michigan.css": "/* CSS placed here will affect users of the Michigan skin */",
+	"michiganL.css": "/* CSS placed here will affect users of the Michigan Light skin */",
+	"michigan.js": "/* Any JavaScript here will be loaded for users using the Michigan skin */",
+	"michiganL.js": "/* Any JavaScript here will be loaded for users using the Michigan Light skin */",
+	"skinmichigan-collapsiblenav-preference": "Enable collapsing of items in the sidebar (Michigan skin)",
+	"skinmichigan-lightscheme-preference": "Use light scheme (Michigan skin)",
+	"michigan-guest": "Guest",
+	"michigan-uploadfile": "Upload...",
+	"michigan-tiles": "* https://therofl98.co/|TheROFL98's Website|https://therofl98.co/images/tr98MetroTile.png\n* https://nkrs200.co/|nkrs200's Website|https://therofl98.co/images/nkrs200MetroTile.png\n* https://discord.gg/vp5JjRs|TTSC Discord Server|https://therofl98.co/images/TTSCDiscordMetroTile.png\n* https://mssam.fandom.com/wiki/Microsoft_Sam_and_his_Fellow_TTS_Voices_Wiki|Legacy Wiki|https://therofl98.co/images/legacyWikiMetroTile.png",
+	"michigan-tiles-second": ""
+}
