@@ -1,5 +1,20 @@
 Changelog
 =========
+0.1
+===
+
+* First open-source release!
+
+* Fixed up mobile layout
+
+* Changed link colors
+
+* Removed references to the shelved Michigan Light skin
+
+0.1 alpha 3
+===
+
+* Minor touch-ups and fixes.
 
 0.1 alpha 2
 ===
@@ -23,4 +38,4 @@ Changelog
 0.1 alpha 1
 ===
 
-* Initial release.
+* Initial release on the TTSCpedia
