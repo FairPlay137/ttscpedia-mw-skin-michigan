@@ -1,37 +1,18 @@
 {
 	"name": "mediawiki/michigan-skin",
 	"type": "mediawiki-skin",
-	"description": "A skin for mediawiki",
+	"description": "A dark MediaWiki skin originally designed for use on the TTSCpedia.",
 	"keywords": [
 		"wiki",
 		"MediaWiki",
 		"skin"
 	],
-	"homepage": "https://www.mediawiki.org/wiki/Skin:Metrolook",
 	"license": "GPL-2.0-or-later",
 	"authors": [
-		{
-			"name": "immewnity"
-		},
-		{
-			"name": "Paladox"
-		},
-		{
-			"name": "Craig Davison"
-		},
-		{
-			"name": "lagleki"
-		},
 		{
 			"name": "FairPlay137 (Daniel S)"
 		}
 	],
-	"support": {
-		"wiki": "https://www.mediawiki.org/wiki/Skin:Metrolook",
-		"forum": "https://www.mediawiki.org/wiki/Skin_talk:Metrolook",
-		"source": "https://phabricator.wikimedia.org/diffusion/SMTL/",
-		"irc": "irc://irc.freenode.org/mediawiki"
-	},
 	"extra": {
 		"installer-name": "Michigan"
 	},
