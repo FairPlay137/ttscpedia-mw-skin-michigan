@@ -37,14 +37,14 @@ hr {
 	color:#222
 }
 a {
-	color:#e63710;
+	color:#ff603f;
 	&:visited {
-		color:#c83300
+		color:#ef4020
 	}
 	&.new {
-		color:#a11;
+		color:#b11;
 		&:visited {
-			color:#900;
+			color:#a00;
 		}
 	}
 }
@@ -127,15 +127,22 @@ img.editbutton {
 }
 
 /* Content */
-.mw-body {
-	margin-left: 12em;
+.mw-body,
+.parsoid-body {
 	padding: 1.25em 1.5em 1.5em 1.5em;
+	background-color:#333;
+	color:#c1c1c1;
+	direction: ltr;
+}
+
+/* Content */
+.mw-body {
+	margin-left: 11em;
 	/* @embed */
 	background-image: url(images/border.png);
 	background-position: top left;
 	background-repeat: repeat-y;
-	background-color: white;
-	color: black;
+	
 	direction: ltr;
 	height: auto;
 	position: relative;
@@ -146,6 +153,8 @@ img.editbutton {
 	overflow: auto;
 	-webkit-overflow-scrolling: touch;
 
+	// h1's can exist outside of mw-body-content so some heading styles
+	// need to be defined in mw-body as well
 	&-content h2 {
 		font-family: @content-heading-font-family;
 		line-height: @heading-line-height;
@@ -184,6 +193,20 @@ img.editbutton {
 		display: inline-block;
 		zoom: 1;
 		*display: inline; // stylelint-disable declaration-block-no-duplicate-properties
+	}
+
+	.mw-body-content {
+		h1 {
+			margin-top: 1em;
+		}
+	}
+	
+	a.external,
+	a.extiw	{
+		color:#ff603f;
+		&:visited {
+			color:#ef4020
+		}
 	}
 }
 
@@ -288,7 +311,7 @@ img.downarrow {
 
 	&:hover {
 		position: inherit;
-		background: #83bcfb;
+		background: #ea7775;
 		.background-image-svg('images/downarrow.svg', 'images/downarrow.png');
 		width: 28px;
 		height: 40px;
@@ -317,7 +340,7 @@ span.title-name {
 	padding-left: 0.4em;
 	padding-right: 0.4em;
 	max-height: 700px;
-	max-width: auto;
+	max-width: fit-content;
 	vertical-align: middle;
 }
 
@@ -333,8 +356,7 @@ div.emptyPortlet {
 }
 
 ul {
-	list-style-type: disc;
-	.list-style-image-svg('images/bullet-icon.svg', 'images/bullet-icon.png');
+	.list-style-image( 'images/bullet-icon.svg' );
 }
 
 pre,
@@ -348,10 +370,10 @@ pre,
 }
 
 .hoverbox {
-	background: #5089c8;
+	background: #d82420;
 
 	&:hover {
-		background: #83bcfb;
+		background: #ea7775;
 	}
 }
 
@@ -359,9 +381,52 @@ pre,
 	word-spacing: 4px;
 }
 
+#pt-notifications-alert .mw-echo-notifications-badge,
 #pt-notifications-notice .mw-echo-notifications-badge {
-	left: 0.7em;
-	right: 0.4em;
-	top: 0.5em;
-	padding-right: 11.5em;
+	margin-left: 0.5em;
+	top: -1005px;
+	&:after {
+		font-size: 0.7em;
+		border-radius: 5px;
+		background-color: #ff1005;
+	}
+}
+
+table {
+	&.wikitable,
+	&.wikitable>*>tr>th,
+	&.wikitable>*>tr>td,
+	&.mw_metadata td,
+	&.mw_metadata th {
+		color:#c1c1c1;
+		background-color:#4c4c4c;
+		border-color:#666
+	}
+	
+	&.mw_metadata th,
+	&.wikitable>*>tr>th	{
+		background-color:#595959
+	}
+	
+	&.diff {
+		background-color:#4c4c4c
+	}
+	
+	&.diffchange {
+		color:#4c4c4c
+	}
+}
+
+td {
+	&.diffchange {
+		color:#4c4c4c
+	}
+	
+	
+}
+
+pre {
+	color:#c1c1c1;
+	background-color:#4c4c4c;
+	border-color:#666
 }
